@@ -1,0 +1,123 @@
+{
+    "editor.accessibilitySupport": "off",
+    "editor.fontFamily": "Geist Mono, Cascadia Code, Fira Code, JetBrains Mono, monospace",
+    "editor.fontLigatures": true,
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.minimap.showSlider": "always",
+    "editor.cursorBlinking": "expand",
+    "editor.lineHeight": 40,
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "workbench.iconTheme": "catppuccin-latte",
+    "workbench.colorTheme": "Catppuccin Latte",
+    "workbench.productIconTheme": "fluent-icons",
+    "window.commandCenter": true,
+    "git.ignoreRebaseWarning": true,
+    "tabnine.experimentalAutoImports": true,
+    "php.suggest.basic": false,
+    "intelephense.diagnostics.undefinedMethods": false,
+    "auto-close-tag.activationOnLanguage": [
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist"
+    ],
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "githubPullRequests.pullBranch": "never",
+    "html.format.wrapLineLength": 250,
+    "bladeFormatter.format.wrapLineLength": 250,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": true,
+        "editor.wordWrap": "bounded",
+        "editor.wordWrapColumn": 250
+    },
+    "black-formatter.args": [
+        "--line-length",
+        "250"
+    ],
+    "editor.scrollbar.verticalScrollbarSize": 10,
+    "editor.scrollbar.horizontalScrollbarSize": 10,
+    "terminal.integrated.scrollback": 9999999,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.gotoLocation.multipleReferences": "gotoAndPeek",
+    "command-runner.terminal.name": "custom-command-runner",
+    "command-runner.terminal.autoClear": false,
+    "command-runner.terminal.autoFocus": true,
+    "command-runner.commands": {
+        "Git | Copy Git Diff": "git diff --cached --diff-algorithm=minimal --unified=0 | pbcopy && exit",
+        // "Laravel | Run Artisan Server": "php artisan serve",
+        "Laravel | Get Route List": "php artisan route:list",
+        "Laravel | Optimize": "php artisan optimize",
+        "Laravel | Optimize - Clear": "php artisan optimize:clear",
+    },
+    "apc.parts.font.family": {
+        "sidebar": "Geist Mono, monospace;",
+        "titlebar": "Geist Mono, monospace;",
+        // "activityBar": "Geist Mono, monospace;",
+        // "panel": "JetBrains Mono, monospace;",
+        "tabs": "Geist Mono, monospace;",
+        // "statusbar": "JetBrains Mono, monospace;",
+        // "settings-body": "JetBrains Mono, monospace;",
+        // "extension-editor": "JetBrains Mono, monospace;",
+    },
+    "apc.stylesheet": {
+        "*": "font-family: Geist Mono, Fira Code, Cascadia Code, JetBrains Mono, monospace;",
+        // ".monaco-breadcrumbs": "font-family: Geist Mono, monospace; font-size: 13px;",
+        ".editor .title": "background: transparent !important;",
+        ".editor .scrollbar .slider": "visibility: hidden;",
+        ".editor .scrollbar:hover .slider": "visibility: initial;",
+        // ".monaco-editor .cursor": "background: linear-gradient(to bottom, #7F00FF, #E100FF) !important;",
+        // ".scrollbar": "background: #21222f !important",
+        // ".tabs-container .tab.active": "border-radius: 7px !important;",
+        ".line-numbers": "opacity: .4;",
+        ".codicon.codicon-search, .codicon-arrow-right, .codicon-arrow-left": "display: none !important;",
+        ".monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center": {
+            "border": "1px solid #4f5971 !important;",
+            "border-radius": "20px !important;"
+            // "background": "transparent !important;"
+        },
+        ".quick-input-widget": "transform: translateY(-50%) !important; top: 40% !important; box-shadow: 0px 8px 20px rgba(0, 0, 0, .45) !important;padding: 10px 10px 18px 10px !important;backdrop-filter: blur(3px) !important;border-radius: 10px !important;",
+        ".quick-input-filter .monaco-inputbox":  "border-radius: 12px; padding: 8px; border: none; background-color: rgba(34, 34, 34, .40); font-size: 14px; margin-bottom: 16px;",
+    },
+    "editor.foldingHighlight": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.multiCursorLimit": 100000,
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "bottom"
+}
