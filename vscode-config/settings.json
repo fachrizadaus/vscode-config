@@ -37,5 +37,5 @@
         "markdown": false,
         "scminput": false
     },
-    "database-client.autoSync": true,
+    "database-client.autoSync": true
 }
